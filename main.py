@@ -6,12 +6,12 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
 
-MOVIE_API_KEY = "0fdffdc00d9cf9bd43a7a98249bbd65b"
-API_READ_ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZmRmZmRjMDBkOWNmOWJkNDNhN2E5ODI0OWJiZDY1YiIsInN1YiI6IjY0ODAzZTc0ZDJiMjA5MDBjYTFjYzNmNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Oe9pjDYCcQV7m0jTuBYrQ4JtHUt05B36lgkL-0IMvEg"
+MOVIE_API_KEY = "*********"
+API_READ_ACCESS_TOKEN = "********"
 TMDB_URL = "https://api.themoviedb.org/3/search/movie"
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = '***********'
 bootstrap = Bootstrap5(app)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///movies-collection.db"
